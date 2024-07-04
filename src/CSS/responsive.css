@@ -1,0 +1,394 @@
+@media (max-width: 1000px) {
+
+    .cabecalho .pesquisas .pesquisar input {
+        width: 390px;
+        height: 35px;
+        border-radius: 68px;
+    }
+
+    .cabecalho .sociais {
+        padding-right: 4px;
+        margin-right: 0px;
+    }
+
+    .sidebar {
+        font-size: 18px;
+        width: 190px;
+        padding: 17px;
+    }
+
+    .sidebar-videos {
+        width: 135px;
+    }
+
+    .sidebar .sidebar-fav {
+        width: 135px;
+    }
+
+    #videos,
+    #favorites {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 10px;
+    }
+
+    .modal-content {
+        padding: 15px;
+        width: 75%;
+        max-width: 650px;
+    }
+
+    .modal-header {
+        margin-bottom: 15px;
+        padding: 15px;
+    }
+
+    .close-btn {
+        top: -12px;
+        right: 5px;
+        font-size: 41px;
+    }
+
+    .video-card {
+        margin: 15px;
+    }
+
+}
+
+@media (max-width: 900px) {
+
+    .cabecalho .sociais {
+        margin-right: 0px;
+        margin-left: 10px;
+    }
+
+    .cabecalho .sociais svg {
+        height: 24px;
+        width: 24px;
+        flex-grow: 1;
+    }
+
+    .video-card {
+        height: 320px;
+        margin: 15px;
+    }
+
+    .favorite-btn {
+        width: 120px;
+        height: 35px;
+    }
+    
+    .favorite-btn img {
+        height: 18px;
+        width: 18px;
+    }
+
+}
+
+@media (max-width: 800px) {
+
+    
+    .cabecalho .logo {
+        margin-top: -20px;
+        height: 80px;
+        width: 80px;
+    }
+
+    .cabecalho .nav .titulo-favorito {
+        display: flex;
+        font-size: 14px;
+        margin-top: -70px;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .modal-content {
+        margin: 10% auto;
+        padding: 15px;
+        width: 80%;
+        max-width: 600px;
+    }
+
+    .modal-header {
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+
+    #video-title {
+        text-align: center;
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .cabecalho .nav {
+        flex-direction: column;
+        height: 195px;
+    }
+
+    .cabecalho .logo {
+        margin-top: -20px;
+        height: 80px;
+        width: 80px;
+    }
+
+    .cabecalho .pesquisas .pesquisar {
+        margin-top: -90px;
+    }
+
+    .cabecalho .pesquisas .pesquisar input {
+        width: 300px;
+        height: 30px;
+        border-radius: 58px;
+    }
+
+    .cabecalho .pesquisas .search-icon {
+        height: 19px;
+        width: 19px;
+    }
+
+    .cabecalho .sociais {
+        padding: 5px;
+        margin-top: -60px;
+    }
+
+    .cabecalho .sociais svg {
+        padding: 4px;
+        height: 25px;
+        width: 25px;
+    }
+
+    .sidebar {
+        font-size: 12px;
+        width: 75px;
+        padding: 10px;
+       
+    }
+
+    .sidebar-videos {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+        margin-bottom: 20px;
+        height: 60px;
+        width: 50px;
+        border-radius: 3px;
+        transition: 0.3s ease-in;
+    }
+
+    .sidebar-videos .button-icon {
+       margin-bottom: 6px;
+        margin-right: 0px;
+    }
+
+    .sidebar .sidebar-fav {
+        flex-direction: column;
+        background: #ffffffe8;
+        padding: 5px;
+        margin-bottom: 20px;
+        height: 60px;
+        width: 55px;
+        font-size: 10px;
+        margin-bottom: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sidebar-fav .fav-icon {
+        width: 24px;
+        height: 24px;
+        margin-right: 0px;
+    }
+
+    .count {
+        margin-left: 0px;
+    }
+
+    .divider {
+        margin-top: 25px;
+    }
+
+    .subscription-link {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4px;
+        margin-top: 10px;
+    }
+
+    .subscription-icon {
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+    }
+
+    .sidebar .subscriptions h3 {
+        font-size: 12px;
+    }
+
+    .main-content {
+        padding: 5px;
+    }
+
+    .video-card {
+        height: 290px;
+        margin: 8px;
+    }
+
+    .video-info h3 {
+        font-size: 12px;
+        color: #013057;
+    }
+
+    .favorite-btn {
+        width: 100px;
+        height: 30px;
+    }
+    
+    .favorite-btn img {
+        height: 15px;
+        width: 15px;
+    }
+
+}
+
+@media (max-width: 450px) {
+
+    .cabecalho .nav {
+        flex-direction: column;
+        height: 165px;
+    }
+
+    .cabecalho .logo {
+        margin-top: -25px;
+        height: 80px;
+        width: 80px;
+    }
+
+    .cabecalho .pesquisas .pesquisar {
+        margin-top: -90px;
+    }
+
+    .cabecalho .pesquisas .pesquisar input {
+        width: 220px;
+        height: 27px;
+        border-radius: 58px;
+    }
+
+    .cabecalho .pesquisas .search-icon {
+        height: 19px;
+        width: 18px;
+    }
+
+    .cabecalho .sociais svg {
+        padding: 4px;
+        height: 22px;
+        width: 22px;
+    }
+
+    
+    .sidebar-videos {
+        padding: 5px;
+        margin-bottom: 20px;
+        height: 60px;
+        width: 50px;
+        font-size: 12px;
+    }
+
+    .sidebar-videos .button-icon {
+       margin-bottom: 6px;
+        margin-right: 0px;
+    }
+
+    .sidebar .sidebar-fav {
+        flex-direction: column;
+        padding: 5px;
+        margin-bottom: 20px;
+        height: 60px;
+        width: 55px;
+        font-size: 11px;
+        margin-bottom: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sidebar-fav .fav-icon {
+        width: 24px;
+        height: 24px;
+        margin-right: 0px;
+    }
+
+    .count {
+        margin-left: 0px;
+    }
+
+    .divider {
+        margin-top: 25px;
+    }
+
+    .subscription-link {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4px;
+        margin-top: 10px;
+    }
+
+    .subscription-icon {
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+    }
+
+    .sidebar .subscriptions h3 {
+        font-size: 12px;
+    }
+
+    .main-content {
+        padding: 5px;
+    }
+
+    .video-info h3 {
+        font-size: 12px;
+        color: #013057;
+    }
+
+    .favorite-btn {
+        width: 100px;
+        height: 30px;
+    }
+    
+    .favorite-btn img {
+        height: 15px;
+        width: 15px;
+    }
+
+    #video-modal {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        z-index: 1000;
+        overflow: auto;
+    }
+
+    #video-iframe {
+        margin-top: 30px;
+        border-radius: 7px;
+        width: 100%;
+
+    }
+
+    .modal-content {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin: 80% auto;
+        padding: 3px;
+        height: 450px;
+        width: 95%;
+        max-width: 600px;
+    }
+
+}
