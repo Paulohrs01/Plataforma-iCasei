@@ -1,4 +1,4 @@
-const apiKey = 'AIzaSyAPO5OlgB84ZhPqaj_jhZnubR5Y-n7Z09c';
+// const apiKey = 'AIzaSyAPO5OlgB84ZhPqaj_jhZnubR5Y-n7Z09c';
 const channelId = 'UCu5VHc965WcULpGtbu7TcSQ';
 
 const searchInput = document.querySelector('.pesquisas input');
